@@ -1,0 +1,35 @@
+.map {
+  height: 450px;
+  box-sizing: border-box;
+  border: 1px solid white;
+
+  margin-top: 8px !important;
+  padding: 10px;
+  background: white;
+}
+.mapp {
+  height: 100%;
+}
+
+.popup-container {
+  width: 150px;
+}
+.popup-flag {
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.popup-flag img {
+  width: 100px;
+}
+.popup-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #555;
+}
+.popup-recovered .popup-cases .popup-deaths {
+  font-size: 1rem;
+  margin-top: 5px;
+}

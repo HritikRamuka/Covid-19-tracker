@@ -1,0 +1,49 @@
+.infobox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infobox--selected {
+  border-right: 10px solid violet;
+}
+
+.infobox_cases {
+  color: limegreen;
+}
+
+.infobox--red {
+  color: red;
+}
+.caseType_title {
+  color: grey;
+  font-weight: 800;
+  font-size: 4rem;
+}
+.total_cases {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+h2 {
+  padding-left: 0;
+}
+
+@media (max-width: 450px) {
+  .infobox {
+    width: 95px !important;
+    height: 85px !important;
+  }
+  .total_cases {
+    margin-top: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .caseType_title {
+    color: grey;
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+  .infobox_cases {
+    font-size: 1rem;
+  }
+}
